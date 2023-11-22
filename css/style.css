@@ -1,0 +1,229 @@
+body{
+    
+    font-family: 'Montserrat',sans-serif;
+    background-color: #0B1118;
+}
+.navbar
+{
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+.navbar .navbar-brand h2
+{
+    color: #DE5D83;
+    font-size: 2.4rem;
+    cursor: pointer;
+    font-family: 'Lemon',cursive;
+}
+.navbar ul .nav-item a
+{
+    color: #DE5D83;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-family: 'Lemon',cursive;
+}
+.btn
+{
+    color: #DE5D83;
+    border: 1px solid #DE5D83;
+}
+.btn:hover
+{
+    background-color:#DE5D83 ;
+    color: #ffffff;
+}
+.carousel-item h1
+{
+    text-transform: uppercase;
+}
+.card_1{
+    padding:0 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card_1::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color:rgba(222, 92, 131) ;
+    transition: 1s;
+    opacity: 1;
+}
+.card_1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.card_1::before
+{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color:rgba(222, 92, 131) ;
+    transition: 1s;
+    opacity: 1;
+}
+.card_1:hover::before
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.card-img-overlay
+{
+    background-color:rgba(10, 16, 23,0.5);
+}
+.card-2:hover
+{
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+    margin-bottom: 30px;
+}
+.card h5
+{
+    color: #DE5D83;
+}
+.card-4 .img
+{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75%);
+}
+.card-3 .img
+{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75%);
+}
+.card-3:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.card-4:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.card h2
+{
+    color: #DE5D83;
+}
+.form
+{
+    background-color:rgba(255, 255, 255);
+    color: #DE5D83;
+    padding: 16px;
+}
+.form a
+{
+    text-decoration: none;
+    color: #0B1118;
+}
+.footer
+{
+    background-color:#171B27;
+    color: #d9d9d9;
+    padding: 16px;
+}
+.bg
+{
+    background-image: url('../images/bg/subscribe\ .svg');
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+  
+   
+}
+.bg-2
+{
+    background-image: url('../images/bg/uncharted\ \(1\).svg');
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+}
+.dropdown-toggle
+{
+    border: 1px solid #DE5D83;
+}
+.btn-1
+{
+    width: 175px;
+    height: 45px;
+    background-color: #fff;
+    color: #DE5D83;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+.btn-1:hover{
+background-color:#DE5D83;
+ color: #fff;
+ }
+ .btn-2
+ {
+    width: 175px;
+    height: 45px;
+    background-color: #DE5D83;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+ }
+ .btn-2:hover{
+    color: #DE5D83;
+    background-color: #fff;
+}
+.carousel-caption
+{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.carousel-caption h1
+{
+    color: #DE5D83;
+}
+.footer i{
+    color: #DE5D83;
+    font-size: 20px;
+    
+}
+.footer i:hover{
+    color: #ffffff;
+}
+.icons 
+{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 30;
+    position: fixed;
+    
+}
+.icons i
+{
+    
+    color: #DE5D83;
+    font-size: 50px;
+    padding: 10px;
+}
