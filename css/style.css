@@ -135,7 +135,7 @@ clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75
 }
 .bg
 {
-    background-image: url('../images/bg/subscribe\ .svg');
+    background-image: url('../images/uncharted\ \(1\).svg');
     width: 100%;
     height: 50vh;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 38% 88%, 0% 75
 }
 .bg-2
 {
-    background-image: url('../images/bg/uncharted\ \(1\).svg');
+    background-image: url('../imagesuncharted\ \(1\).svg');
     width: 100%;
     height: 50vh;
     background-attachment: fixed;
